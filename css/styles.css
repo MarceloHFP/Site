@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: nome;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+:root {
+    --orange: #f78b00;
+    --yellow: #c9cf2c;
+    --blue: #1c63c7;
+    --blue-more: #115ac0;
+    --white: #e1d4d4;
+    --black: #000000;
+    --black-mid: #201b1b;
+    --red: #f73737;
+    --gray: #a29f9f;
+    --purple: #842dff;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: var(--blue);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover{
+    color: #e1d4d480;
+}
+.brand {
+    height: auto;
+    width:35%;
+    font-size: 40px;
+    color: var(--white);
+    padding: 30px;
+
+}
+.navigator {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu {
+    height: auto;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.menu li {
+    margin: 30px;
+}
+.menu .divbutton {
+    margin: 30px;
+}
+
+.menu button {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    font-weight: bold;
+    color: var(--white);
+    padding: 10px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu button:hover{
+    transition: background, color 0.4s;
+    color: var(--blue);
+    background-color: var(--white);
+}
+
+.text-header-div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-header-div h1 {
+    font-size: 40px;
+    color: var(--white);
+}
+
+.text-header-div h2 {
+    font-size: 25px;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.text-mid-div {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray);
+    padding-top: 10px;
+}
+
+.text-mid-box {
+    width: 80%;
+    height: 80%;
+    background-color: var(--blue-more);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.text-mid {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.teams {
+    background-color: var(--gray);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.teams > div {
+    margin: 15px;
+}
+.teams .team-card {
+    max-width: 22.5%;
+    min-width: 200px;
+    max-height: 500px;
+    min-height: 350px;
+    background-color: var(--blue-more);
+    border-radius: 7px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.teams .tittle-team {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.teams img {
+    display: flex;
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+}
+
+.teams .team-content {
+    height: 105px;
+    width: 100%;
+}
+
+.teams .about-team {
+    font-size: 18px;
+    color: var(--white);
+    line-height: 20px;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical; 
+}
+
+.teams .cardbutton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.teams a {
+    height: auto;
+    width: 70%;
+}
+
+.teams .cardbutton button {
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 4px;
+    color: var(--blue);
+}
+
+.teams button:hover {
+    transition: background, color 0.4s;
+    border: 2px solid var(--white);
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+  

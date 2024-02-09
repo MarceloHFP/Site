@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: nome;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+:root {
+    --wine: #870A28;
+    --green: #00613C;
+    --white: #ffffff;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: var(--wine);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover{
+    color: #ffffff80;
+}
+.brand {
+    height: auto;
+    width:35%;
+    font-size: 40px;
+    color: var(--white);
+    padding: 30px;
+
+}
+.navigator {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    height: auto;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.menu li {
+    margin: 30px;
+}
+
+.menu li a {
+    font-size: 30px;
+}
+
+.text-header-div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-header-div h1 {
+    font-size: 40px;
+    color: var(--white);
+}
+
+.main {
+    width: 100%;
+    height: 800px;
+    background-color: var(--green);
+}
+
+.main .top-div {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-div .img {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.top-div p {
+    font-size: 20px;
+    color: var(--white);
+}
+.h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.h1 h1 {
+    color: var(--white);
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+}
+
+.main .fotter {
+    width: 100%;
+    height: 80px;
+    background-color: var(--wine);
+}
+
+.fotter .under-title {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.under-title ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.under-title h1 {
+    color: var(--white);
+}
+
+.fotter .h1-bottom {
+    font-size: 15px;
+    width: 100%;
+    height: 35%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+

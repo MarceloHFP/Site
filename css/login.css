@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: nome;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+:root {
+    --orange: #f78b00;
+    --yellow: #c9cf2c;
+    --blue: #1c63c7;
+    --blue-more: #115ac0;
+    --white: #e1d4d4;
+    --black: #000000;
+    --black-mid: #201b1b;
+    --red: #f73737;
+    --gray: #a29f9f;
+    --purple: #842dff;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: var(--blue);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover{
+    color: #e1d4d480;
+}
+
+.brand {
+    display: flex;
+    height: auto;
+    width:45%;
+    font-size: 40px;
+    color: var(--white);
+    padding: 30px;
+}
+
+.text-header-div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-header-div h1 {
+    font-size: 50px;
+    color: var(--white);
+}
+
+.text-header-div h2 {
+    font-size: 30px;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.navigator {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    height: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu li {
+    margin: 30px;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;   
+}
+
+.login {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card-register {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.text-top {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-top h1 {
+    font-size: 30px;
+    color: var(--blue);
+}
+
+.input-space-login {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-space-register {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dados-register {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.dados-login {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+.dados-register .label {
+    font-size: 25px;
+    width: 22%;
+    height: 100%;
+    color: var(--blue);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dados-login .label {
+    font-size: 25px;
+    width: 15%;
+    height: 100%;
+    color: var(--blue);
+    display: flex;
+    justify-content:  flex-end;
+    align-items: center;
+}
+
+.dados-login input {
+    border: 1px solid blue;
+    width: 75%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.dados-register input {
+    border: 1px solid blue;
+    width: 65%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.divbutton-register {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.divbutton-login {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-space-login {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+}
+
+.button-space-register {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+}
+
+.button-space-login .button {
+    background-color: var(--blue-more);
+    color: var(--white);
+    border-radius: 4px;
+    border: 0;
+    padding: 4px 30px;
+}
+
+.button-space-register .button {
+    background-color: var(--blue-more);
+    color: var(--white);
+    border-radius: 4px;
+    border: 0;
+    padding: 2px 30px;
+}
+
+.button-space-register .button:hover {
+    transition: background, color 0.4s;
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.button-space-login .button:hover {
+    transition: background, color 0.4s;
+    background-color: var(--white);
+    color: var(--blue);
+}
