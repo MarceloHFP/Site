@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="css/login.css">
+    <script src="login.js"></script>
 </head>
 <body>
     <header class="header">
@@ -32,16 +33,16 @@
                     <div class="input-space-login">
                         <div class="dados-login">
                             <label class="label">Email:</label>
-                            <input type="text" placedolder="algo"></input> 
+                            <input type="text" id="loginEmail"></input> 
                         </div>
                         <div class="dados-login">
                             <label class="label">Senha:</label>
-                            <input type="text" placedolder="algo"></input>
+                            <input type="text" id="loginSenha"></input>
                         </div>
                     </div>
                     <div class="divbutton-login">
                         <div class="button-space-login">
-                            <button type="button" class="button">Fazer Login</button>
+                            <button type="button" onclick="login()" class="button">Fazer Login</button>
                         </div>
                     </div>
                 </div>
@@ -54,28 +55,28 @@
                     <div class="input-space-register">
                         <div class="dados-register">
                             <label class="label">Nome:</label>
-                            <input type="text" placedolder="algo"></input>
+                            <input type="text" id="cadastroNome"></input>
                         </div>
                         <div class="dados-register">
                             <label class="label">Email:</label>
-                            <input type="text" placedolder="algo"></input>
+                            <input type="text" id="cadastroEmail"></input>
                         </div>
                         <div class="dados-register">
                             <label class="label">Senha:</label>
-                            <input type="text" placedolder="algo"></input>
+                            <input type="text" id="cadastroSenha"></input>
                         </div> 
                         <div class="dados-register">
                             <label class="label">CPF:</label>
-                            <input type="text" placedolder="algo"></input>
+                            <input type="text" id="cadastroCPF"></input>
                         </div>
                         <div class="dados-register">
                             <label class="label">Seu Time:</label>
-                            <input type="text" placedolder="algo"></input>
+                            <input type="text" id="cadastroTime"></input>
                         </div>
                     </div>
                     <div class="divbutton-register">
                         <div class="button-space-register">
-                            <button type="button" class="button">Cadastrar-se</button>
+                            <button type="button" onclick="cadastro()" class="button">Cadastrar-se</button>
                         </div>
                     </div>
                 </div>
